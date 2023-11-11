@@ -2,7 +2,7 @@ export function addTwoNumbers(firstNumber, secondNumber) {
     return firstNumber + secondNumber
 }
 
-export function subtractTwoNumbers(firstNumber, secondNumber) {
+export function subtractNumbers(firstNumber, secondNumber) {
     return firstNumber - secondNumber
 }
 
