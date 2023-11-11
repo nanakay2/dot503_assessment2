@@ -1,4 +1,4 @@
-export function addTwoNumbers(firstNumber, secondNumber) {
+export function addNumbers(firstNumber, secondNumber) {
     return firstNumber + secondNumber
 }
 
