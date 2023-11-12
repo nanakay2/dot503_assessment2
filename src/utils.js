@@ -6,7 +6,7 @@ export function subtractNumbers(firstNumber, secondNumber) {
     return firstNumber - secondNumber
 }
 
-export function multiplyTwoNumbers(firstNumber, secondNumber) {
+export function multiplyNumbers(firstNumber, secondNumber) {
     return firstNumber * secondNumber
 }
 
