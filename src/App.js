@@ -84,7 +84,7 @@ function App() {
               textAlign: "center",
             }}
           >
-            Perform a simple mathematical operation using any two numbers
+            Perform a simple mathematical operation using any two single digit numbers
           </p>
           <div
             style={{
