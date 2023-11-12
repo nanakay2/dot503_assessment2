@@ -13,3 +13,7 @@ export function multiplyNumbers(firstNumber, secondNumber) {
 export function divideTwoNumbers(firstNumber, secondNumber) {
     return firstNumber / secondNumber
 }
+export function capitalizeText(str) {
+    return str.toUpperCase();
+  }
+  
