@@ -1,9 +1,10 @@
 import "./App.css";
 import {
-  addTwoNumbers,
+  addNumbers,
   subtractTwoNumbers,
-  multiplyTwoNumbers,
+  multiplyNumbers,
   divideTwoNumbers,
+  capitalizeText
 } from "./utils";
 import { useEffect, useState } from "react";
 
@@ -47,10 +48,10 @@ function App() {
   };
 
   const operatorsAndTheirFunctions = {
-    "+": addTwoNumbers,
+    "+": addNumbers,
     "-": subtractTwoNumbers,
     "÷": divideTwoNumbers,
-    x: multiplyTwoNumbers,
+    x: multiplyNumbers,
   };
 
   const firstSetOfNumbers = [1, 2, 3, 4, 5];
