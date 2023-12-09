@@ -1,9 +1,11 @@
 pipeline {
     agent any
+     options {
+      timeout(time: 15, unit: 'SECONDS') 
+  }
     stages {
         stage('wait for 2mins') {
             steps {
-                bat 'timeout 10'
                 bat 'echo "Hello World"'
             }
         }
