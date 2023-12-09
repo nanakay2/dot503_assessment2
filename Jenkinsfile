@@ -3,25 +3,23 @@ pipeline {
      options {
       timeout(time: 15, unit: 'SECONDS') 
   }
+  tools{
+        nodejs 'nodejs'
+  }
     stages {
-        stage('wait for 2mins') {
-            steps {
-                bat 'echo "Hello World"'
-            }
-        }
         stage('install') {
             steps {
-                bat 'set'
+                bat 'npm install'
             }
         }
         stage('test') {
             steps {
-                bat 'set'
+                bat 'npm run test'
             }
         }
         stage('build') {
             steps {
-                bat 'set'
+                bat 'npm run build'
             }
         }
     }
