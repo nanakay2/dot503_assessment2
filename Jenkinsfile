@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('wait for 2mins') {
             steps {
-                bat 'timeout /t 10 /nobreak'
+                bat 'timeout 10'
                 bat 'echo "Hello World"'
             }
         }
