@@ -10,5 +10,7 @@ Run npm run start to run the project locally
 This project setup includes the use of github actions to automate the testing and building process whenever a push is made to the remote repository
 In order to accomplish the same automation locally, run npm run build.
 If you check the package.json file the build script has been altered to enable this automation
-test pipeline 123
+
+This Project has also been configured to use Jenkins as an automation server.
+The pipeline for Jenkins can be found in the Jenkinsfile.
 
