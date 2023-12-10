@@ -22,7 +22,8 @@ function App() {
         )
       );
     }
-  }, [userInput]);
+    //eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [userInput, operatorsAndTheirFunctions]);
 
   const clearInput = () => {
     setUserInput("");
