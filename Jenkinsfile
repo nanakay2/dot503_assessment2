@@ -4,7 +4,7 @@ pipeline {
       timeout(time: 15, unit: 'SECONDS') 
   }
   tools{
-        nodejs 'nodejs'
+        nodejs '21.4.0'
   }
     stages {
         stage('install') {
