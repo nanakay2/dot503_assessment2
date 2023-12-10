@@ -11,7 +11,7 @@ import {
       expect(addNumbers(2, 3)).toBe(5);
     });
     it("should subtract two single digit numbers", () => {
-      expect(subtractTwoNumbers(2, 1)).toBe(0);
+      expect(subtractTwoNumbers(2, 1)).toBe(1);
     });
   
     it("should multiply two single digit numbers", () => {
@@ -19,7 +19,7 @@ import {
     });
   
     it("should divide two single digit numbers", () => {
-      expect(divideTwoNumbers(4, 2)).toBe(1);
+      expect(divideTwoNumbers(4, 2)).toBe(2);
     });
   
     it("should capitalize text", () => {
