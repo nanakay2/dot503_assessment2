@@ -11,7 +11,7 @@ pipeline {
         }
         stage('test') {
             steps {
-                bat 'npm run test'
+                bat 'npm run test -- --watchAll --testMatch "**/src/**/*.test.js"'
             }
         }
         stage('build') {
